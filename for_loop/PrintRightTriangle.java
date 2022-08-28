@@ -1,7 +1,7 @@
 package for_loop;
 
 public class PrintRightTriangle {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int i, j;
         for (i = 1; i <= 10; i++) {
             for (j = 1; j <= i; ++j) {
@@ -10,7 +10,6 @@ public class PrintRightTriangle {
             System.out.print("\n");
         }
     }
-
     /*
     using for loop print right triangle from 8
     with size 10*10
